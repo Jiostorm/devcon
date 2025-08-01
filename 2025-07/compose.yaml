@@ -1,0 +1,7 @@
+services:
+  pgsqldb:
+    image: postgres:17.3-alpine3.21
+    network_mode: host
+    command:
+      - sleep
+      - infinity
